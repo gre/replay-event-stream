@@ -1,0 +1,27 @@
+{
+  "name": "replay-event-stream",
+  "version": "1.0.0",
+  "description": "mock server which replays an EventStream recording in a file",
+  "bin": {
+    "replay-event-stream": "./cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gre/replay-event-stream.git"
+  },
+  "keywords": [
+    "eventstream",
+    "mock",
+    "replay"
+  ],
+  "author": "Gaëtan Renaudeau",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/gre/replay-event-stream/issues"
+  },
+  "homepage": "https://github.com/gre/replay-event-stream",
+  "dependencies": {
+    "commander": "^2.8.0",
+    "event-stream": "^3.3.0"
+  }
+}
